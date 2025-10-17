@@ -1,0 +1,25 @@
+
+
+.heading-container {
+  position: absolute; /* container ko top-left me place karne ke liye */
+  top: 0px;          /* aap adjust kar sakte ho */
+  left: 100px;        /* original left */
+}
+
+.heading-line1 {
+  font-size: 2.6rem;
+  font-weight: 500;
+  color: white;
+  font-family: "Comic Neue", cursive;
+  margin: 0;
+  text-align: center; /* horizontal center ke liye */
+}
+
+.heading-line2 {
+  font-size: 2.6rem;
+  font-weight: 500;
+  color: #ffff;
+  font-family: "Comic Neue", cursive;
+  margin: 0;
+  text-align: center;  /* upar wali line ke center me */
+}
