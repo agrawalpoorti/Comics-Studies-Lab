@@ -6,9 +6,9 @@ import swirl from '../assets/curl.png'
 
 
 
-function Bg() {
+function Bg(props) {
   return (
-    <div className="bg-container">
+    <div className="bg-container" style = {props.style}>
       {/* Stars */}
       <img src={star} alt="star" className="bg-item star1" />
       <img src={star} alt="star" className="bg-item star2" />

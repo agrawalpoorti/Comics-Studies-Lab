@@ -1,0 +1,49 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.comic-container {
+  display: flex;
+  flex-direction: row; /* use 'row' if you want side-by-side */
+  gap:0;
+}
+
+.comic-img {
+  max-height: 100vh;
+  width:35vw;
+}
+
+.character {
+  position: absolute;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Adjust each character’s position here */
+.s1 {
+  top: 38%;
+  left: 80%;
+  width:150px;
+}
+
+.s2 {
+  bottom: 5%;
+  left: 90%;
+  width:60px;
+}
+
+.s3 {
+  bottom: 5%;
+  left: 80%;
+  width:60px;
+}
+
+.s4 {
+  bottom: 5%;
+  left: 85%;
+  width:60px;
+}
+
+.character:hover {
+  transform: scale(1.5);
+}
+
