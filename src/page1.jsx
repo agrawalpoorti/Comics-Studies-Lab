@@ -22,10 +22,10 @@ function Page1() {
 
       {/* Character images section */}
 <div className="characters-container">
-  <img src={s1} alt="Character 1" className="character s1" />
-  <img src={s2} alt="Character 2" className="character s2" />
-  <img src={s3} alt="Character 3" className="character s3" />
-  <img src={s4} alt="Character 4" className="character s4" />
+  <img src={s1} alt="Character 1" className="character s11" />
+  <img src={s2} alt="Character 2" className="character s21" />
+  <img src={s3} alt="Character 3" className="character s31" />
+  <img src={s4} alt="Character 4" className="character s41" />
 </div>
 
     </div>

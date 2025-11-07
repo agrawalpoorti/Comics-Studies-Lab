@@ -1,8 +1,8 @@
 import React from "react";
 import "./page6.css";
 import Bg from "./components/bg.jsx";
+import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
-
 
 function Page6() {
   return (
@@ -13,9 +13,7 @@ function Page6() {
       <h1 className="page6-heading">Comics Studies<br />Lab@IITJ</h1>
 
       <div className="register-section">
-        <Link to="/page7" className="register-link">
-          Please register
-        </Link>
+        <div className="register-link"><Link to="/page7">Please register</Link></div>
       </div>
     </div>
   );
