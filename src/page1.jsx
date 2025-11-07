@@ -6,6 +6,7 @@ import s1 from "./assets/s1.png";
 import s2 from "./assets/s2.png";
 import s3 from "./assets/s3.png";
 import s4 from "./assets/s4.png";
+import iitjlogo from "./assets/iitjlogo.png"
 import "./page1.css";
 
 function Page1() {
@@ -13,6 +14,7 @@ function Page1() {
     <div>
       <Bg />
       <Heading />
+      <img src={iitjlogo} className="IITJ" />
       <p id="p1-main">Our Home in the World of Comics</p>
 
       {/* Proper working link */}

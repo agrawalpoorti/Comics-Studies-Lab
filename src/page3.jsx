@@ -18,10 +18,10 @@ function Page3() {
       <img src={c1} alt="Comic 1" className="comic-img" />
        <img src={c2} alt="Comic 2" className="comic-img" />
        <div className="characters-container">
-         <img src={s1} alt="Character 1" className="character s1" />
-         <img src={s2} alt="Character 2" className="character s2" />
-         <img src={s3} alt="Character 3" className="character s3" />
-         <img src={s4} alt="Character 4" className="character s4" />
+         <img src={s1} alt="Character 1" className="character s13" />
+         <img src={s2} alt="Character 2" className="character s23" />
+         <img src={s3} alt="Character 3" className="character s33" />
+         <img src={s4} alt="Character 4" className="character s43" />
        </div>
      </div>
 //       <img src={c2} alt="Comic 2" className="comic-img" />

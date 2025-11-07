@@ -19,21 +19,27 @@ body{
 }
 
 /* Adjust each character’s position here */
-.s1 {
+.s13 {
   top: 38%;
   left: 80%;
   width:150px;
 }
 
-.s2 {
+.s23 {
   bottom: 5%;
-  left: 90%;
+  left: 85%;
   width:60px;
 }
 
-.s3 {
+.s33 {
   bottom: 5%;
-  left: 80%;
+  left: 81%;
+  width:60px;
+}
+
+.s43 {
+  bottom: 5%;
+  left: 77%;
   width:60px;
 }
 

@@ -48,7 +48,7 @@
 
 .faculty-title {
   color: #1730c6;
-  font-size: 1.9rem;
+  font-size: 2.5rem;
   text-decoration: underline;
   font-family: "Brush Script MT", "Comic Neue", cursive;
   margin-bottom: 1rem;
@@ -104,14 +104,14 @@
 .info-box h3 {
   margin: 0;
   color: #1530c7;
-  font-size: 1.1rem;
+  font-size: 2rem;
   font-weight: 700;
 }
 
 .info-box p {
   margin-top: 0.3rem;
   color: #374832;
-  font-size: 0.95rem;
+  font-size: 1.6rem;
 }
 
 @keyframes fadeIn {
@@ -132,15 +132,17 @@
 
 .student-title {
   color: #0d24bb;
-  font-size: 1.8rem;
+  font-size: 2.2rem;
   text-decoration: underline;
+  font-weight: 800;
 }
 
 .students-section p {
-  font-size: 1.2rem;
+  font-size: 2rem;
   color: #374832;
   font-style: italic;
   margin-top: 0.3rem;
+  font-weight: 600;
 }
 
 /* === ARTISTS SECTION === */
@@ -149,9 +151,10 @@
 }
 
 .artist-title {
-  font-size: 1.7rem;
+  font-size: 2rem;
   color: #3c4a34;
   margin-bottom: 1rem;
+  font-weight: 800
 }
 
 .artist-grid {

@@ -100,4 +100,20 @@ body {
 .character:hover {
   transform: scale(1.5);
 }
+.IITJ {
+  position: absolute;
+  top: 5%;
+  left: 43%;
+  width: 220px;
+  height: auto;
+  transform-origin: center center; /* rotate around the middle */
+  transition: all 0.4s ease-in-out;
+  filter: drop-shadow(0 0 8px #f1a600);
+  cursor: pointer;
+}
+
+.IITJ:hover {
+  filter: drop-shadow(0 0 12px #ffd166);
+}
+
 
