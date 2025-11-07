@@ -40,7 +40,7 @@ function Page5() {
 
   return (
     <div className="page5-container">
-      <Bg />
+      <Bg style={{backgroundColor:"white"}}/>
 
       <h1 className="page5-heading">Comics Studies<br />Lab@IITJ</h1>
 

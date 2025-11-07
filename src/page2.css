@@ -38,13 +38,15 @@
   right: 30%;
 }
 
-.activity .bubble-text {
+.activity .bubble-text  {
   color: #030e57;
   left:60px;
   font-weight:10;
   text-decoration: underline;
 
 }
+.activity .bubble-text a {
+  color: #030e57;}
 
 .origin {
   top: 45%;
@@ -52,10 +54,13 @@
 }
 
 .origin .bubble-text {
-  color: #050781;
   top:90px;
   font-weight: 10;
   text-decoration: underline;
+
+}
+.origin .bubble-text a{
+    color: #050781;
 
 }
 
@@ -65,9 +70,13 @@
 }
 
 .visibility .bubble-text {
-  color: #b40b0b;
+  
   top: 230px;
   font-weight: 10;
+}
+.visibility .bubble-text a{
+    color: #b40b0b;
+
 }
 
 .creativity {
@@ -81,6 +90,8 @@
   font-weight: 10;
   font-weight:10;
 }
+.creativity .bubble-text a{
+  color: rgb(36, 104, 36);}
 
 /* Container for extra icons */
 .extra-icons {

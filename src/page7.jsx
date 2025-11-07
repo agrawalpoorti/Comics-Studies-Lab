@@ -6,7 +6,7 @@ import envelopeImage from "./assets/envelope.png";
 function Page7() {
   return (
     <div className="page7-container">
-      <Bg />
+      <Bg style={{backgroundColor:"White"}} />
 
       
       <h1 className="page7-heading">Comics Studies<br />Lab@IITJ</h1>

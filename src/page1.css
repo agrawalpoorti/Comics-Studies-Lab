@@ -72,29 +72,30 @@ body {
 }
 
 /* Adjust each character’s position here */
-.s1 {
+.s11 {
   top: 65%;
-  left: 4%;
+  left: 5%;
   width:150px;
 }
 
-.s2 {
+.s21 {
   bottom: 5%;
   left: 16%;
   width:60px;
 }
 
-.s3 {
+.s31 {
   bottom: 5%;
   left: 2%;
-  width:60px;
+  width: 60px;
 }
 
-.s4 {
+.s41 {
   bottom: 5%;
   left: 8%;
-  width:60px;
+  width: 60px;
 }
+
 
 .character:hover {
   transform: scale(1.5);

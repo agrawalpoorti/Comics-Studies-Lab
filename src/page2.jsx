@@ -39,11 +39,11 @@ function Page2() {
         </div>
         <div className="bubble visibility">
           <img src={visibility} alt="visibility" />
-          <div className="bubble-text">Visibility</div>
+          <div className="bubble-text"><Link to="/page5">Visibility</Link></div>
         </div>
         <div className="bubble creativity">
           <img src={creativity} alt="creativity" />
-          <div className="bubble-text">Creativity</div>
+          <div className="bubble-text"><Link to="/page6">Creativity</Link></div>
         </div>
       </div>
 
