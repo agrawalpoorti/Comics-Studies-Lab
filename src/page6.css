@@ -1,0 +1,64 @@
+/* --- MAIN CONTAINER --- */
+.page6-container {
+  position: relative;
+  min-height: 100vh;
+  background: url("/src/assets/page5bg.png") no-repeat center center fixed;
+  background-size: cover;
+  font-family: "Comic Neue", cursive;
+  color: #3b4a37;
+  overflow: hidden;
+}
+ 
+/* --- HEADING --- */
+.page6-heading {
+  position: absolute;
+  top: 0;          
+  left: 2cm;      
+  font-size: 3rem;
+  font-weight: 600;
+  color: #3b4a37;  
+  line-height: 1.2;
+  text-align: left;
+  font-family: "Comic Neue", cursive;
+  white-space: pre-line;
+  margin: 0;       
+  padding: 0;      
+}
+
+
+/* --- REGISTER SECTION --- */
+.register-section {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.register-link {
+  font-size: 1.6rem;
+  font-family: "Comic Neue", cursive;
+  color: #1530c7;
+  text-decoration: underline;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.register-link:hover {
+  color: #0a1b8c;
+  text-decoration: none;
+  transform: scale(1.05);
+}
+
+/* --- RESPONSIVE --- */
+@media (max-width: 768px) {
+  .page6-heading {
+    font-size: 2.3rem;
+    left: 2rem;
+    top: 2rem;
+  }
+
+  .register-link {
+    font-size: 1.4rem;
+  }
+}
