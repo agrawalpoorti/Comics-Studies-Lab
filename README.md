@@ -14,3 +14,26 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## Node.js version
+
+Vite (used by this project) requires a newer Node.js runtime than some older environments provide. Use Node.js 20.19+ or 22.12+.
+
+Recommended (non-destructive) approach:
+
+- Install nvm (https://github.com/nvm-sh/nvm) and then run:
+
+```
+nvm install 22.12.0
+nvm alias default 22.12.0
+nvm use default
+```
+
+After that you can run the dev server:
+
+```
+npm install
+npm run dev
+```
+
+If you prefer not to use nvm, upgrade Node with your system package manager or Node installer to one of the supported versions above.
