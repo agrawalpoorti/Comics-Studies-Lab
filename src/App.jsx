@@ -8,10 +8,6 @@ import Page5 from "./page5.jsx";
 import Page6 from "./page6.jsx";
 import Page7 from "./page7.jsx";
 
-
-
-
-
 function App() {
   return (
     <Routes>
@@ -22,11 +18,6 @@ function App() {
       <Route path="/page5" element={<Page5 />} />
       <Route path="/page6" element={<Page6 />} />
       <Route path="/page7" element={<Page7 />} />
-
-
-
-
-
     </Routes>
   );
 }
