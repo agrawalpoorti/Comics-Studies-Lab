@@ -18,18 +18,18 @@
 /* === MAIN HEADING (SAME AS PAGE 6) === */
 .page5-heading {
   position: absolute;
-  top: 0;             /* ✅ No space from top edge */
-  left: 3rem;         /* ✅ Same horizontal position as Page 6 */
+  top: 0;            
+  left: 3rem;        
   font-size: 3rem;
   font-weight: 600;
-  color: #3b4a37;     /* Olive green color */
+  color: #3b4a37;     
   line-height: 1.2;
   text-align: left;
   font-family: "Comic Neue", cursive;
   white-space: pre-line;
-  margin: 0;          /* Remove default browser margin */
-  padding: 0;         /* Remove padding */
-  z-index: 10;        /* Make sure heading stays above leaves/background */
+  margin: 0;          
+  padding: 0;         
+  z-index: 10;        
 }
 
 /* --- Responsive heading adjustments --- */
